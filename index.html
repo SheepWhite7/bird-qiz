@@ -318,7 +318,6 @@ const questions = [
 
 // ===== 小鸟结果库（30种） =====
 const birdDB = {
-  // A类：雀形目·社交型
   "A_AA": { name: "树麻雀", emoji: "🐦", desc: "集群、杂食、与人共居，走到哪都能活。你是那种扔进任何饭局都能迅速融入的人，不挑环境、不挑话题，热闹是刚需，但你也懂得在人群里给自己留个位置。", tags: ["社交型", "杂食", "适应力强"] },
   "A_AB": { name: "白头鹎", emoji: "🐦", desc: "南方城市最常见的\"土著\"之一，荤素皆宜，叫声响亮，适应力极强。你不排斥变化，但也不需要靠迁徙证明什么，在熟悉的地盘上就能把日子过得有声有色。", tags: ["社交型", "留鸟", "城市生活"] },
   "A_BA": { name: "金丝雀", emoji: "🐦", desc: "叫声清亮，偏好稳定食物来源，被人喜爱也保持自己的节奏。你有点\"挑\"，但这种挑不是矫情，而是知道什么让自己舒服，并且愿意为此守住一套生活秩序。", tags: ["社交型", "精致", "有节奏"] },
@@ -327,8 +326,6 @@ const birdDB = {
   "A_CB": { name: "鹊鸲", emoji: "🐦", desc: "叫声动听但好斗，有固定的领地感。你待人温和、说话好听，但心里有一块不容侵犯的地盘，谁越界你会立刻亮爪子，只是亮得很有分寸。", tags: ["社交型", "有领地感", "有分寸"] },
   "A_DA": { name: "家燕", emoji: "🐦", desc: "夏候鸟，年年准时归来，飞越千里也要回到老巢。你看起来随和好说话，其实对\"归属\"有很深的执念，走得再远，心里总有一个必须回去的地方。", tags: ["社交型", "恋家", "守时"] },
   "A_DB": { name: "珠颈斑鸠", emoji: "🐦", desc: "咕咕咕的固定嗓音，城市草丛里的安稳住户。你不追求轰轰烈烈，日子按自己的节奏过，声音不大但一直在，是那种让人习惯了就离不开的存在。", tags: ["社交型", "安稳", "陪伴感"] },
-
-  // B类：雀形目·稳重营巢型
   "B_AA": { name: "绿头鸭", emoji: "🦆", desc: "游禽，适应力强，南北都能见到，荤素搭配。你是那种\"到哪儿都能过得不错\"的人，不挑食、不挑地方，但心里其实有一套自己的舒适标准，只是不轻易说出口。", tags: ["稳重型", "适应力强", "游禽"] },
   "B_AB": { name: "红胸鸽", emoji: "🐦", desc: "吃毛虫和小甲虫，天冷就迁走，天暖再回来，规律而踏实。你接受生活的季节性，该收缩时收缩，该舒展时舒展，不硬扛也不逃避，节奏感是你最大的本事。", tags: ["稳重型", "规律", "踏实"] },
   "B_BA": { name: "云雀（百灵）", emoji: "🐦", desc: "草原上的歌手，有固定的繁殖节奏，歌声是它的标志。你有自己雷打不动的习惯，也有一个愿意反复打磨的\"拿手活\"，别人记住你，往往就是因为这一手。", tags: ["稳重型", "有才艺", "节奏固定"] },
@@ -337,8 +334,6 @@ const birdDB = {
   "B_CB": { name: "啄木鸟", emoji: "🐦", desc: "攀禽，凿树找虫，日复一日在同一片林子里干活。你是典型的\"深耕型\"人格，认定一个领域就一头扎进去，重复对你不是折磨，而是精进的路径。", tags: ["稳重型", "深耕", "专注"] },
   "B_DA": { name: "鸿雁", emoji: "🪿", desc: "冬候鸟，长途迁徙但路线固定，群体秩序感强。你重视秩序和集体，做事有章法，路上再远也不乱阵脚，是团队里那个\"定盘星\"式的存在。", tags: ["稳重型", "有秩序", "团队核心"] },
   "B_DB": { name: "斑头雁", emoji: "🪿", desc: "在青海湖繁殖、藏南越冬，年年走同一条路。你的人生像一条清晰的航线，起点和终点都明确，不轻易改道，但也因此走得比谁都稳。", tags: ["稳重型", "路线清晰", "稳"] },
-
-  // C类：攀禽/猛禽/游禽·独立探索型
   "C_AA": { name: "蜂鸟", emoji: "🐦", desc: "最小的鸟，悬停取蜜，不停歇地探索花丛。你精力旺盛、好奇心重，什么都想尝一口，停不下来，但也因此总能发现别人忽略的甜头。", tags: ["探索型", "好奇心", "精力旺"] },
   "C_AB": { name: "鹦鹉", emoji: "🦜", desc: "攀禽，聪明好奇，食谱广，在哪儿都能找到乐子。你脑子转得快，学什么都快，社交和独处都能自洽，最大的本事是把无聊的日子过出花样。", tags: ["探索型", "聪明", "会找乐子"] },
   "C_BA": { name: "翠鸟", emoji: "🐦", desc: "凿状喙，蹲守水边等鱼，专注一件事到极致。你不广撒网，看准了就死等，别人觉得你固执，你知道那叫\"值得\"。", tags: ["探索型", "专注", "极致"] },
@@ -347,8 +342,6 @@ const birdDB = {
   "C_CB": { name: "猫头鹰", emoji: "🦉", desc: "猛禽，利钩喙，夜间独行猎手，安静但致命。你享受独处，不喜欢无效社交，夜里脑子最清醒，看起来疏离，其实只是把力气留给真正重要的事。", tags: ["探索型", "独行", "夜间清醒"] },
   "C_DA": { name: "黑天鹅", emoji: "🦢", desc: "游禽，水面上从容游弋，看似优雅实则领地意识极强。你外表温和体面，内里边界感很强，不主动惹事，但谁动了你的水域，你会让对方记住。", tags: ["探索型", "优雅", "边界感强"] },
   "C_DB": { name: "鸳鸯", emoji: "🦆", desc: "游禽，成对出现，有自己的固定水域，不轻易换地方。你重感情、认地方，一旦认定一个人或一处生活，就不太想折腾，安稳对你不是无聊，是奢侈。", tags: ["探索型", "重感情", "认地方"] },
-
-  // D类：涉禽/鸣禽·灵活生存型
   "D_AA": { name: "白鹭", emoji: "🐦", desc: "涉禽，喙长颈长腿长，在水边什么小鱼小虾都能对付。你条件不差、手段灵活，环境怎么变都能找到吃的，看起来云淡风轻，其实很会审时度势。", tags: ["灵活型", "审时度势", "涉禽"] },
   "D_AB": { name: "大白鹭", emoji: "🐦", desc: "南方冬候鸟，迁徙但适应力强，稻田河岸都能待。你不怕换环境，也不执着于某个固定答案，走到哪儿都能安顿下来，这种弹性是你最大的底气。", tags: ["灵活型", "弹性强", "候鸟"] },
   "D_BA": { name: "丹顶鹤", emoji: "🐦", desc: "涉禽，姿态优美但挑剔，认准的湿地就不想换。你有品位、有标准，宁可少也不将就，别人觉得你难搞，你只是知道自己要什么。", tags: ["灵活型", "有品位", "不将就"] },
@@ -362,6 +355,7 @@ const birdDB = {
 // ===== 状态 =====
 let currentQ = 0;
 let answers = new Array(25).fill(null);
+let finalBird = null;
 
 // ===== 页面切换 =====
 function showPage(id) {
@@ -400,7 +394,6 @@ function renderQuestion() {
   document.getElementById('nextBtn').textContent = currentQ === questions.length - 1 ? '查看结果' : '下一题';
   document.getElementById('nextBtn').disabled = answers[currentQ] === null;
 
-  // 动画
   const card = document.getElementById('questionCard');
   card.classList.remove('fade-in');
   void card.offsetWidth;
@@ -436,15 +429,77 @@ function prevQuestion() {
 
 // ===== 结果计算 =====
 function calcResult() {
-  // 统计 A/B/C/D 数量
   const counts = { A: 0, B: 0, C: 0, D: 0 };
   answers.forEach(a => { if (a) counts[a]++; });
 
-  // 找最多的字母
   let maxLetter = 'A';
   let maxCount = -1;
   ['A', 'B', 'C', 'D'].forEach(l => {
     if (counts[l] > maxCount) { maxCount = counts[l]; maxLetter = l; }
   });
 
-  // 并列
+  // 处理并列（看第25题）
+  const tieLetters = ['A', 'B', 'C', 'D'].filter(l => counts[l] === maxCount);
+  if (tieLetters.length > 1) {
+    const q25 = answers[24];
+    if (q25 && tieLetters.includes(q25)) {
+      maxLetter = q25;
+    }
+  }
+
+  // 根据第3题(索引2)和第22题(索引21)决定后缀
+  const q3 = answers[2] || 'A';
+  const q22 = answers[21] || 'A';
+  
+  // 第3题：A/D -> A, B -> B, C -> C
+  let suffix1 = 'A';
+  if (q3 === 'B') suffix1 = 'B';
+  else if (q3 === 'C') suffix1 = 'C';
+  else if (q3 === 'D') suffix1 = 'A'; // 或 D，此处按题库映射
+
+  // 第22题：A/C -> A, B/D -> B
+  let suffix2 = 'A';
+  if (q22 === 'B' || q22 === 'D') suffix2 = 'B';
+
+  const key = `${maxLetter}_${suffix1}${suffix2}`;
+  return birdDB[key] || birdDB["A_AA"]; // 兜底
+}
+
+function showResult() {
+  finalBird = calcResult();
+  document.getElementById('birdEmoji').textContent = finalBird.emoji;
+  document.getElementById('birdName').textContent = finalBird.name;
+  document.getElementById('birdDesc').textContent = finalBird.desc;
+  
+  const tagsWrap = document.getElementById('resultTags');
+  tagsWrap.innerHTML = '';
+  finalBird.tags.forEach(tag => {
+    const span = document.createElement('span');
+    span.className = 'tag';
+    span.textContent = tag;
+    tagsWrap.appendChild(span);
+  });
+
+  showPage('result');
+}
+
+function restart() {
+  showPage('home');
+}
+
+function shareResult() {
+  if (!finalBird) return;
+  const text = `我测出来是【${finalBird.name}】！${finalBird.desc}`;
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(() => {
+      alert('结果已复制到剪贴板，快去分享吧！');
+    }).catch(() => {
+      prompt('复制失败，请手动复制以下内容：', text);
+    });
+  } else {
+    prompt('请手动复制以下内容进行分享：', text);
+  }
+}
+</script>
+</body>
+</html>
